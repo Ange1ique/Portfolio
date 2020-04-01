@@ -1,0 +1,118 @@
+html, body {height:100%;}
+
+* {font-family: 'Baloo Bhai 2', cursive;}
+
+#name {color: #a67623;}
+
+#title {font-size: 425%;
+    font-weight: bold;}
+
+#info {background-color: #e3e3e3;
+    background-color: white;}
+
+#mountains{background-image: url("../images/Corsica_view.jpg");}
+
+#nav {
+  position: fixed;
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  min-width: 150px;
+}
+
+#navbarbig {text-align: left;}
+
+.collapse .navbar-nav .nav-item .nav-link,
+.nav-item .nav-link, .nav-title {
+    color: white;
+}
+
+.collapse .navbar-nav .nav-item .nav-link.open,
+.collapse .navbar-nav .nav-item:hover .nav-link,
+.nav-item .nav-link.open,
+.nav-item:hover .nav-link {
+    color: #edac3b;
+}
+
+a.dropdown-item.open,
+a.dropdown-item:hover {background-color: #f0d5a8;}
+
+a.decoration {text-decoration: underline #f0d5a8;
+              text-decoration-thickness: 2px;}
+a.decoration:hover {
+              font-style: italic;
+              text-decoration: underline #f0d5a8 3px;
+            }
+a.decorationIcon {color: rgb(52, 58, 64);}
+a.decorationIcon:hover {color: #f0d5a8;
+              text-decoration: none;}
+
+/* For IE browser */
+a.decoration-ie {text-decoration: underline;}
+/* For Edge browser */
+@supports (-ms-ime-align:auto) {
+    a.decoration {
+        text-decoration: underline;
+    }
+}
+
+img {border-radius: 4px;}
+#pasfoto {max-width: 300px;}
+img.border {border-color: rgb(52, 58, 64);}
+
+button, button:hover {text-decoration: none !important;}
+
+hr {background-color: grey;}
+
+hr.rule {
+  background-color: #f0d5a8;
+  /* background: linear-gradient(to right, #f0d5a8, white, #f0d5a8); */
+  height: 2px;
+  border: 0;
+}
+
+strong {
+  font-weight: 600 !important;
+}
+
+.website {border: 2px solid black;
+      max-width: 1000px;}
+
+@media screen and (max-width: 768px) {
+        h3.subject {font-size: 130%;}
+        #mountains{background-size: 2399px 500px;
+              min-height: 500px;
+              height: 500px;}
+        #promo{text-align: center;
+              margin-left: 0rem;
+              margin-right: 0rem;
+              font-size: 75%;}
+        #title {font-size: 325%;}
+      }
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+        #info{margin-left: 150px;}
+      }
+
+@media screen and (min-width: 900px) {
+        #info{margin-left: 16.66%;}
+      }
+
+@media screen and (min-width: 768px) {
+        #mountains{background-size: 2759px 575px;
+                min-height: 575px;
+                height: 575px;}
+        #promo{margin-left: 1.5rem;
+                margin-right: 1.5rem;}
+      }
+
+.accordion .btn .subject:after {
+    font-family: 'FontAwesome';
+    content: "\f107";
+    position: absolute;
+    right: 30px;
+}
+
+.accordion .btn.collapsed .subject:after {
+    /* symbol for "collapsed" panels */
+    content: "\f105";
+}
