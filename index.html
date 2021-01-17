@@ -114,9 +114,9 @@
                     Not only is my technical and creative background (MSc - TU Delft) and my user focused mindset useful for this type of work.
                     I can also unleash my eagerness for solving analytical puzzles and for delivering clean and organized code.
                   </p>
-                  <p>The past year I've enthusiastically learned as much as I could about software development myself.
+                  <p>In 2019 I've enthusiastically learned as much as I could about software development myself.
                     This resulted in the GoalPlanner web app.
-                    My app and motivation got me into the DevOps bootcamp of YoungCapital NEXT (by Testconsultancy Groep at ITPH academy).
+                    My app and motivation got me into the DevOps bootcamp of YoungCapital NEXT (by Testconsultancy Groep at ITPH academy) in January 2020.
                     Within the time span of 2 months I've;</p>
                   <ul>
                     <!--[if IE]>
@@ -130,7 +130,7 @@
                     <li>worked in a scrum team on a <a class="decoration text-dark linkid" href="#hairforce" link="collapseSeven">project</a> for 4 sprints of a week</li>
                     <!-- <![endif]-->
                   </ul>
-                  <p>Now I am continuing my learning process at home and looking for an opportunity to grow and put my skills to use at a company.
+                  <p>Now I am continuing my learning process at <a class="decoration text-dark linkid" href="https://www.edition1.nl" target="_blank" rel="noopener">Edition1</a> as a Junior Software Developer.
                   </p>
                   <p>I like to spend my free time bouldering or climbing.
                     During vacations I like to be in the mountains, enjoying the views and making long and adventurous hikes.
@@ -191,8 +191,31 @@
                   <p><b>Result - </b>A deployed web app for the hair salon with many functionalities, a happy client,
                     experience in working in a scrum team and growth as a software developer.</p>
                   <p><i class="fa fa-arrow-right"></i> Unfortunately the code on GitLab is only accessible by the scrum team and stakeholders.</p>
-                  <p><i class="fa fa-arrow-right"></i> <a class="decoration text-dark" href="http://www.hfo.nu/" target="_blank" rel="noopener">Link to hair salon Hairforce One</a></p>
+                  <!-- <p><i class="fa fa-arrow-right"></i> <a class="decoration text-dark" href="http://www.hfo.nu/" target="_blank" rel="noopener">Link to hair salon Hairforce One</a></p> -->
                   <img src="static/images/homepage_HairforceOne.jpg" class="img-fluid border" alt="printscreen homepage HairforceOne">
+                </div>
+              </div>
+              <hr class="rule2 mt-2 p-0">
+              <div class="row">
+                <div class="col-lg">
+                  <p><b>Update January 2020: Code Refactoring - </b>
+                    The code snippet above shows a nested for loop that will provide the available employees when making a reservation.
+                    However, especially when the database grows, this nested for loop is very inefficient.
+                    The Big-O complexity of this algorithm is O(n<sup>3</sup>). Therefore I improved this code.
+                    Or better said: when looking at this code again I realized this nested for loop can be skipped completely, by improving the database queries.
+                  </p>
+                  <p>
+                    Prior to the nested for loop 3 queries where made: 1 to get all employees (which is not efficient and not necessary),
+                    1 to get the employees that are scheduled for work and 1 to get the employees that are booked.
+                    Here you see my improved nested query that uses 2 sub queries.
+                  </p>
+                  <p>
+                    (Note: For this project Flask and SQLAlchemy was used.)
+                  </p>
+                </div>
+                <div class="col-lg">
+                  <img src="static/images/hf1_refactored.jpg" class="img-fluid border" alt="refactored code for reservations">
+                  <figcaption class="figure-caption">Previous code snippet refactored by improving the prior queries which make the nested for loop redundant.</figcaption>
                 </div>
               </div>
               <br>
@@ -411,7 +434,7 @@
           <div class="row">
             <div class="col">
               <hr>
-              <p class="text-center">Angelique's Portfolio - Built: March 2020 - Last updated: April 2020</p>
+              <p class="text-center">Angelique's Portfolio - Built: March 2020 - Last updated: January 2021</p>
             </div>
           </div>
 

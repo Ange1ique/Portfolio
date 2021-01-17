@@ -70,6 +70,11 @@ hr.rule {
   border: 0;
 }
 
+hr.rule2 {
+  background-color: white;
+  border-top: 2px dashed #f0d5a8;
+}
+
 strong {
   font-weight: 600 !important;
 }
