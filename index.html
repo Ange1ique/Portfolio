@@ -74,12 +74,13 @@
                 Work
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#animal" link="collapseEight">Game: Guess the Animal</a>
-                <a class="dropdown-item" href="#hairforce" link="collapseSeven">Team Project: Hairforce One</a>
-                <a class="dropdown-item" href="#goal" link="collapseSix">Web App: GoalPlanner</a>
-                <a class="dropdown-item" href="#lampshapers" link="collapseFive">(Real) Web Shop: Lampshapers</a>
+                <a class="dropdown-item" href="#animal" link="collapseNine">Game: Guess the Animal</a>
+                <a class="dropdown-item" href="#hairforce" link="collapseEight">Team Project: Hairforce One</a>
+                <a class="dropdown-item" href="#goal" link="collapseSeven">Web App: GoalPlanner</a>
+                <a class="dropdown-item" href="#lampshapers" link="collapseSix">(Real) Web Shop: Lampshapers</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#skills" link="collapseFour">Skills</a>
+                <a class="dropdown-item" href="#skills" link="collapseFive">Skills</a>
+                <a class="dropdown-item" href="#skills" link="collapseFour">Books</a>
                 <a class="dropdown-item" href="#certificates" link="collapseThree">Certificates</a>
                 <a class="dropdown-item" href="#cv" link="collapseCV">CV</a>
               </div>
@@ -142,11 +143,11 @@
               </div>
             </div>
 
-            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
               <h3 class="subject" id="animal"><strong>Game:</strong> Guess the Animal</h3>
             </button>
             <hr class="rule mt-0 p-0">
-            <div id="collapseEight" class="scroll collapse" aria-labelledby="headingEight" data-parent="#accordion">
+            <div id="collapseNine" class="scroll collapse" aria-labelledby="headingNine" data-parent="#accordion">
               <div class="row pt-4">
                 <div class="col-lg mx-1">
                   <p><b>Problem - </b>How can you learn a computer to ask the right questions?
@@ -168,11 +169,11 @@
               <br>
             </div>
 
-            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
               <h3 class="subject" id="hairforce"><strong>Team Project:</strong> Hairforce One</h3>
             </button>
             <hr class="rule mt-0 p-0">
-            <div id="collapseSeven" class="scroll collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+            <div id="collapseEight" class="scroll collapse" aria-labelledby="headingEight" data-parent="#accordion">
               <div class="row pt-4">
                 <div class="col-lg mx-1">
                   <p><b>Problem - </b>A hair salon was in need of a web app for it's manager, employees and customers.
@@ -197,8 +198,8 @@
               </div>
               <hr class="rule2 mt-2 p-0">
               <div class="row">
-                <div class="col-lg">
-                  <p><b>Update January 2020: Code Refactoring - </b>
+                <div class="col-lg mx-1">
+                  <p><b>Update January 2021: Code Refactoring - </b>
                     The code snippet above shows a nested for loop that will provide the available employees when making a reservation.
                     However, especially when the database grows, this nested for loop is very inefficient.
                     The Big-O complexity of this algorithm is O(n<sup>3</sup>). Therefore I improved this code.
@@ -213,7 +214,11 @@
                     (Note: For this project Flask and SQLAlchemy was used.)
                   </p>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg mx-1">
+                  <!-- <pre>
+                    <code>
+                    </code>
+                  </pre> -->
                   <img src="static/images/hf1_refactored.jpg" class="img-fluid border" alt="refactored code for reservations">
                   <figcaption class="figure-caption">Previous code snippet refactored by improving the prior queries which make the nested for loop redundant.</figcaption>
                 </div>
@@ -221,11 +226,11 @@
               <br>
             </div>
 
-            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
               <h3 class="subject" id="goal"><strong>Web App:</strong> GoalPlanner</h3>
             </button>
             <hr class="rule mt-0 p-0">
-            <div id="collapseSix" class="scroll collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <div id="collapseSeven" class="scroll collapse" aria-labelledby="headingSeven" data-parent="#accordion">
               <div class="row pt-4">
                 <div class="col-lg mx-1">
                   <p><b>Problem - </b>The only experience I had with building a Python web app was the bit that I gained during the Udemy and CS50 course.
@@ -251,11 +256,11 @@
               </div>
             </div>
 
-            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               <h3 class="subject" id="lampshapers"><strong>(Real) Web Shop:</strong> Lampshapers</h3>
             </button>
             <hr class="rule mt-0 p-0">
-            <div id="collapseFive" class="scroll collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <div id="collapseSix" class="scroll collapse" aria-labelledby="headingSix" data-parent="#accordion">
               <div class="row pt-4">
                 <div class="col-lg mx-1">
                   <p><b>Problem - </b>In 2016 the startup company Lampshapers had developed a brand new design collection, ready to market.
@@ -279,11 +284,11 @@
               <br>
             </div>
 
-            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               <h3 class="subject" id="skills">Skills</h3>
             </button>
             <hr class="rule mt-0 p-0">
-            <div id="collapseFour" class="scroll collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div id="collapseFive" class="scroll collapse" aria-labelledby="headingFive" data-parent="#accordion">
               <div class="row pt-4">
                 <div class="col-lg mx-1">
                   <p><b>OS:</b> &nbsp; Windows - Linux</p>
@@ -302,6 +307,63 @@
                   <p><b>Automated testing tool:</b> &nbsp; Gherkin - Behave - PyHamcrest - Selenium - Splinter</p>
                   <p><b>Automated deployment tool:</b> &nbsp; Ansible - YAML</p>
                   <p><b>Best practices:</b> &nbsp; Scrum - Requirements Engineering - Software Testing - DevOps</p>
+                </div>
+              </div>
+              <br>
+            </div>
+
+            <button class="btn collapsed btn-link text-decoration-none text-dark px-0" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h3 class="subject" id="skills">Books</h3>
+            </button>
+            <hr class="rule mt-0 p-0">
+            <div id="collapseFour" class="scroll collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="row pt-4">
+                <div class="col-lg mx-1">
+                  <p>In need for more theoretical knowledge, I collected a series of interesting books to read and work through.</p>
+                  <p>
+                    <b>Read:</b><br>
+                    The Phoenix Project<br>
+                    <i>A Novel about IT, DevOps, and Helping Your Business Win</i><br>
+                    Gene Kim, Kevin Behr and George Spafford
+                  </p>
+                  <p>
+                    <b>Currently reading and working through:</b><br>
+                    Python for Everybody<br>
+                    <i>Exploring Data Using Python 3</i><br>
+                    Charles Severance
+                  </p>
+                  <p>
+                    The Pragmatic Programmer<br>
+                    <i>Your Journey to Mastery</i><br>
+                    David Thomas and Andrew Hunt
+                  </p>
+                  <p>
+                    Beginning the Linux Command Line<br>
+                    Sander van Vugt
+                  </p>
+                </div>
+                <div class="col-lg mx-1">
+                  <p>
+                    Mastering Linux Shell Scripting<br>
+                    <i>A Practical Guide to Linux Command-line, Bash Scripting, and Shell Programming</i><br>
+                    Andrew Mallett and Mokhtar Ebrahim
+                  </p>
+                  <p>
+                    <b>On my to-read-list:</b><br>
+                    Head First Design Patterns<br>
+                    <i>A Brain-Friendly Guide</i><br>
+                    Eric Freeman and Elisabeth Robson
+                  </p>
+                  <p>
+                    Two Scoops of Django 3.x<br>
+                    <i>Best Practices for the Django Web Framework</i><br>
+                    Daniel Feldroy and Audrey Feldroy
+                  </p>
+                  <p>Head First JavaScript and/ or Eloquent JavaScript</p>
+                  <p>
+                    Learning Object-Oriented Programming<br>
+                    C. Hillar Gastn
+                  </p>
                 </div>
               </div>
               <br>
@@ -434,7 +496,7 @@
           <div class="row">
             <div class="col">
               <hr>
-              <p class="text-center">Angelique's Portfolio - Built: March 2020 - Last updated: January 2021</p>
+              <p class="text-center">Angelique's Portfolio - Built: March 2020 - Last updated: February 2021</p>
             </div>
           </div>
 
